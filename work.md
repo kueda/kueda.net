@@ -3,7 +3,7 @@ layout: article
 title: Work
 ---
 
-As of January 2026, I need a job. You can review my professional and educational history at [LinkedIn](https://www.linkedin.com/in/kueda/). You can review my code (both professional and personal) at [Github](https://github.com/kueda). If I seem like the kind of person you might hire, contact me at [work@kueda.net](mailto:work@kueda.net).
+As of January 2026, I need a job. You can review my professional and educational history at [LinkedIn](https://www.linkedin.com/in/kueda/). You can review my code (both professional and personal) at [Github](https://github.com/kueda). If I seem like the kind of person you might hire, contact me on LinkedIn.
 
 I'm looking for something that combines my interest in technology with natural history, but tech + literature / comics / food / democracy / social media / etc all sound interesting too. I'm mainly hoping for a way to pay my bills that I don't feel terrible about.
 
