@@ -53,10 +53,18 @@ i, em {
 a {
   color: #5e5eed;
   text-decoration-style: dotted;
+
+  &.citation {
+    color: var(--text-color);
+  }
 }
 
 a:visited {
   color: #77628c;
+
+  &.citation {
+    color: var(--text-color);
+  }
 }
 
 h1, h2, h3 {
@@ -135,6 +143,33 @@ article.primary {
       li::marker {
         content: counter(customlistcounter) "  ";
         font-weight: bold;
+      }
+    }
+
+    .citation {
+      @include meta;
+    }
+
+    // jekyll-scholar renders the bibliography as an ordered list for...
+    // reasons, so we need to style it a bit differently for sanity
+    ol.bibliography {
+      padding: 0;
+      list-style: none;
+      font-size: 12pt;
+
+      // indent subsequent lines
+      text-indent: -2em;
+      padding-inline-start: 2em;
+
+      // Reset default ol styling
+      li::marker {
+        content: inherit;
+      }
+
+      // Some CSLs render the note as a div
+      .csl-block {
+        display: inline;
+        margin-inline-start: 0.2em;
       }
     }
   }

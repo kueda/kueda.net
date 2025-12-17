@@ -22,3 +22,19 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+plugins:
+  - jekyll/scholar
+
+scholar:
+  # TODO https://github.com/inukshuk/jekyll-scholar/issues/241 so we can sort
+  # by author and editor
+  sort_by: author
+
+  # This includes the note bibtex field, which we can populate using the Extra
+  # Zotero field for things like "Personal communication"
+  style: apa-annotated-bibliography
+
+  # Most CSLs that include a URL make no attempt to link that URL, so we're
+  # doing that here
+  bibliography_template: "{{ reference | linkify_urls }}"
