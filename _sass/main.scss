@@ -38,6 +38,7 @@
 body {
   font-family: "Junicode", serif;
   font-size: 14pt;
+  font-weight: 400;
   color: var(--text-color);
   background-color: var(--background-color);
 
@@ -71,6 +72,12 @@ h1, h2, h3 {
   font-family: "Geom-SemiBold", sans-serif;
   letter-spacing: 0.05em;
   font-weight: 100;
+}
+
+abbr {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 nav {
