@@ -38,7 +38,7 @@
 body {
   font-family: "Junicode", serif;
   font-size: 14pt;
-  font-weight: 400;
+  font-weight: 450;
   color: var(--text-color);
   background-color: var(--background-color);
 
@@ -96,7 +96,7 @@ nav {
   }
   .current {
     position: relative;
-    font-weight: bold;
+    font-weight: 600;
   }
   a:after {
     content: '-';
@@ -114,7 +114,7 @@ nav {
 @media (max-width: 80ch) {
   nav {
     font-size: 2.8vw;
-    font-weight: bold;
+    font-weight: 800;
     letter-spacing: reset;
   }
 }
@@ -128,6 +128,10 @@ body {
 p {
   line-height: 1.6em;
   text-align: justify;
+}
+
+li {
+  line-height: 1.6em;
 }
 
 article.primary {
