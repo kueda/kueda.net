@@ -1,3 +1,8 @@
+title: "Ken-ichi's Website"
+description: Ken-ichi Ueda's very real website for saying things.
+url: https://kueda.net
+author: Ken-ichi Ueda
+
 kramdown:
   parse_block_html: true
 
@@ -25,6 +30,7 @@ defaults:
 
 plugins:
   - jekyll/scholar
+  - jekyll-seo-tag
 
 scholar:
   # TODO https://github.com/inukshuk/jekyll-scholar/issues/241 so we can sort
