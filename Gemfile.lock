@@ -1,7 +1,6 @@
 GIT
-  remote: https://github.com/kueda/jekyll-scholar.git
-  revision: 551e7624ed2eec82af10b02bd2f65d5ab489f47a
-  ref: 241-sort-by-author-and-editor
+  remote: https://github.com/inukshuk/jekyll-scholar.git
+  revision: f6db3b5e406bd50d29f9e84e23ae2f3fc64e2b68
   specs:
     jekyll-scholar (7.2.3)
       bibtex-ruby (~> 6.0)
