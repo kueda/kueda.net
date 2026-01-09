@@ -31,6 +31,7 @@ defaults:
 plugins:
   - jekyll/scholar
   - jekyll-seo-tag
+  - jekyll-feed
 
 scholar:
   # TODO https://github.com/inukshuk/jekyll-scholar/issues/241 so we can sort
