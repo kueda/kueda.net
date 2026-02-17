@@ -279,3 +279,9 @@ hr:after {
   top: -0.6em;
   background-color: var(--background-color);
 }
+
+#feed-link {
+  display: flex;
+  margin-top: 10vh;
+  justify-content: center;
+}

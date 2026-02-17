@@ -47,3 +47,8 @@ scholar:
   bibliography_template: "{{ reference | linkify_urls }}"
 
   separate_links: true
+
+feed:
+  collections:
+    posts:
+      path: "/blog/feed.atom"
