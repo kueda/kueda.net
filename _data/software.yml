@@ -1,3 +1,19 @@
+- title: Chuck
+  url: https://github.com/kueda/chuck
+  summary: |
+    Chuck is a desktop app for viewing DarwinCore Archives, the data format
+    used by GBIF, Symbiota, and other biodiversity platforms. It will
+    also _create_ DarwinCore Archives from your iNat data, so it doubles as
+    an iNat backup tool.
+
+- title: Cuanto.bio
+  url: https://cuanto.bio
+  summary: |
+    🚧 Under construction! Cuanto is a tool for counting organisms. If you have
+    species you want people to count, you can set up a protocol, send your
+    volunteers the URL, and they can start counting. It's a bit like eBird
+    for anything.
+
 - title: iNaturalist
   url: https://www.inaturalist.org
   summary: |
